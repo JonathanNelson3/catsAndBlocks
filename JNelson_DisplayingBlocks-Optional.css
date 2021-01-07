@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+    .wrapper{
+        margin: 0 auto;
+        background-color: white;
+        width: fit-content;
+        min-height: fit-content;
+        padding: 15px;
+    }
+        .wrapper2{
+            margin: 0 auto;
+            background-color: #d5d2ae;
+            width: 940px;
+            min-height: fit-content;
+            padding-bottom: 25px;
+        }
+            .header{
+                display: flex;
+                align-items: center;
+                min-height: fit-content;
+                padding-top: 30px;
+            }
+                .header .header-content{
+                    display: inline-block;
+                    margin: auto;
+                    height: fit-content;
+                }
+                    .header img{
+                        display: inline-block;
+                        vertical-align: bottom;
+                        width: 140px;
+                        height: 70px;
+                        background-color: white;
+                    }
+                    .header h1{
+                        font-size: 30pt;
+                        margin: 0;
+                        padding: 0;
+                        display: inline-block;
+                        vertical-align: bottom;
+                    }
+            .main-content{
+                min-height: 700px;
+                width: auto;
+                padding: 10px;
+            }
+                .main-content .main-content2{
+                    margin: 0 auto;
+                    width: 876px;
+                    min-height: 650px;
+                    align-items: center;
+                }
+                    .main-content .blue-square{
+                        display: inline-block;
+                        width: 140px;
+                        height: 140px;
+                        border: black solid thick;
+                        background-color: #82b4ee;
+                        padding: 10px;
+                        vertical-align: middle;
+                        margin: 3px 1px;
+                    }
+                        .main-content .blue-square img{
+                            width: 140px;
+                            height: auto;
+                        }
+                    .main-content .red-square{
+                        display: inline-block;
+                        width: 140px;
+                        height: 140px;
+                        border: black solid thick;
+                        background-color: #f36870;
+                        padding: 10px;
+                        vertical-align: middle;
+                        margin: 3px 1px;
+                    }
+                        .main-content .red-square img{
+                            width: 140px;
+                            height: auto;
+                        }
